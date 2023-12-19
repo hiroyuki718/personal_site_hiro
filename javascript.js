@@ -20,3 +20,23 @@ navLinks.forEach(link => {
 window.addEventListener('load', function () {
     alert('Welcome to My Website!');
 });
+/* Existing styles */
+
+/* Contact form styles */
+#contact {
+    display: grid; /* or flex */
+    /* Additional grid/flex styles */
+}
+
+#contact form div {
+    margin-bottom: 10px;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%; /* Use proportional units like % or em */
+    /* Dynamic styling */
+}
+
+#contact form button:hover {
+    /* Hover effect */
+}
